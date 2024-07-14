@@ -1,5 +1,5 @@
+import {database} from "~/server/db";
+
 export default defineEventHandler(async (event) => {
-    return {
-        status: "okay"
-    }
+    return await database.stats();
 })

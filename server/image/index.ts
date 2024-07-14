@@ -4,8 +4,6 @@ export namespace Astolfo {
     const baseDir = "./astolfo";
     const migrateDir = "./migrate"
 
-    
-
     if (!fs.existsSync(baseDir)) {
         fs.mkdirSync(baseDir);
     }
