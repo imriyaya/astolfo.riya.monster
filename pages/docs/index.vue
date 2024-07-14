@@ -32,7 +32,9 @@
       <p class="ml-3">nsfw: boolean. Default unset. Filter nsfw image.</p>
       <p class="ml-3">raw: Default unset. Response body will be raw image.</p>
 
-      <h3>Search image with <a class="underline" href="https://github.com/benhoyt/dhash">Difference Hash Algorithm</a>
+      <h3>Search image with <a class="underline"
+                               href="https://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html">Difference
+        Hash Algorithm</a>
       </h3>
       <code>GET
         /image/search?dhash=0011000001111010100110101001100101111000011100101100110011101110&max_distance=10</code>
